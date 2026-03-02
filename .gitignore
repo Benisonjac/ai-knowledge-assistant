@@ -1,0 +1,30 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Data (keep structure, ignore heavy files)
+data/chroma_db/
+data/documents/*.pdf
+data/documents/*.docx
+data/documents/*.pptx
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+*.log
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
